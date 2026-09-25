@@ -18,8 +18,8 @@ Model **tidak dilatih ulang** oleh aplikasi ini — `model/model.joblib` dihasil
 ```
 project/
 │
-├── notebook.ipynb          # Notebook penelitian asli (referensi, tidak diubah)
-├── dataset.csv              # Dataset asli (referensi, tidak diubah)
+├── notebook.ipynb          # Notebook penelitian asli
+├── dataset.csv              # Dataset asli
 │
 ├── model/
 │   └── model.joblib         # Pipeline (StandardScaler + KMeans) hasil training
