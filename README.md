@@ -18,11 +18,10 @@ Model **tidak dilatih ulang** oleh aplikasi ini — `model/model.joblib` dihasil
 ```
 project/
 │
-├── notebook.ipynb          # Notebook penelitian asli
+├── notebook.ipynb           # Notebook penelitian asli
 ├── dataset.csv              # Dataset asli
 │
-├── model/
-│   └── model.joblib         # Pipeline (StandardScaler + KMeans) hasil training
+├── model.joblib             # Pipeline (StandardScaler + KMeans) hasil training
 │
 ├── app.py                   # Aplikasi Streamlit
 ├── requirements.txt         # Daftar dependency
