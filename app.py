@@ -102,8 +102,3 @@ if st.button("Predict", type="primary", use_container_width=True):
         st.dataframe(input_df)
 
 st.divider()
-
-st.caption(
-    "Model: K-Means (n_clusters=2) dengan preprocessing StandardScaler, "
-    "dilatih pada dataset CC_GENERAL sesuai notebook penelitian."
-)
